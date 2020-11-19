@@ -1,0 +1,82 @@
+xPack OpenOCD, 64-bit Open On-Chip Debugger 0.10.0+dev (2019-07-17-11:28)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+srst_only separate srst_nogate srst_open_drain connect_deassert_srst
+
+Started by GNU ARM Eclipse
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : clock speed 500 kHz
+Info : STLINK V2J36M26 (API v2) VID:PID 0483:374B
+Info : Target voltage: 3.248915
+Info : stm32l4x.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : Listening on port 3333 for gdb connections
+Info : accepting 'gdb' connection on tcp/3333
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x81000000 pc: 0x0800b274 msp: 0x2000bf70
+Info : device id = 0x10016435
+Info : flash size = 256kbytes
+Info : Unable to match requested speed 500 kHz, using 480 kHz
+Info : Unable to match requested speed 500 kHz, using 480 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080012a0 msp: 0x20010000
+semihosting is enabled
+
+Info : Unable to match requested speed 500 kHz, using 480 kHz
+Info : Unable to match requested speed 500 kHz, using 480 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080012a0 msp: 0x20010000, semihosting
+Warn : block write succeeded
+Info : Unable to match requested speed 500 kHz, using 480 kHz
+Info : Unable to match requested speed 500 kHz, using 480 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080012a0 msp: 0x20010000, semihosting
+Info : Unable to match requested speed 500 kHz, using 480 kHz
+Info : Unable to match requested speed 500 kHz, using 480 kHz
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080012a0 msp: 0x20010000, semihosting
+===== arm v7m registers
+(0) r0 (/32): 0x00000000
+(1) r1 (/32): 0x00000000
+(2) r2 (/32): 0x00000000
+(3) r3 (/32): 0x00000000
+(4) r4 (/32): 0x00000000
+(5) r5 (/32): 0x00000000
+(6) r6 (/32): 0x00000000
+(7) r7 (/32): 0x00000000
+(8) r8 (/32): 0x00000000
+(9) r9 (/32): 0x00000000
+(10) r10 (/32): 0x00000000
+(11) r11 (/32): 0x00000000
+(12) r12 (/32): 0x00000000
+(13) sp (/32): 0x20010000
+(14) lr (/32): 0xFFFFFFFF
+(15) pc (/32): 0x080012A0
+(16) xPSR (/32): 0x01000000
+(17) msp (/32): 0x20010000
+(18) psp (/32): 0x00000000
+(19) primask (/1): 0x00
+(20) basepri (/8): 0x00
+(21) faultmask (/1): 0x00
+(22) control (/2): 0x00
+(23) d0 (/64): 0x0000000000000000
+(24) d1 (/64): 0x0000000000000000
+(25) d2 (/64): 0x0000000000000000
+(26) d3 (/64): 0x0000000000000000
+(27) d4 (/64): 0x0000000000000000
+(28) d5 (/64): 0x0000000000000000
+(29) d6 (/64): 0x0000000000000000
+(30) d7 (/64): 0x0000000000000000
+(31) d8 (/64): 0x0000000000000000
+(32) d9 (/64): 0x0000000000000000
+(33) d10 (/64): 0x0000000000000000
+(34) d11 (/64): 0x0000000000000000
+(35) d12 (/64): 0x0000000000000000
+(36) d13 (/64): 0x0000000000000000
+(37) d14 (/64): 0x0000000000000000
+(38) d15 (/64): 0x0000000000000000
+(39) fpscr (/32): 0x00000000
+===== Cortex-M DWT registers
+
